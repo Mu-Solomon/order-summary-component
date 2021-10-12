@@ -3,7 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Order summary card</title>
@@ -19,7 +23,9 @@
       background-image: url(images/pattern-background-desktop.svg);
       background-repeat: no-repeat;
       background-color: hsl(225, 100%, 94%);
-      font-family: raleway;
+      font-family: 'Red Hat Display', sans-serif;
+      font-size: 15px;
+      
     }
     #containerInfo {
       width: 375px;
@@ -31,10 +37,37 @@
       margin-bottom: 12px;
 
     }
-    @media screen and (max-width:500px) {
+    @media screen and (min-width:200px) and (max-width: 700px){
       #containerInfo {
-        margin-top: 15%;
+        margin-top: 8%;
+        width: 85%;
       }
+      #information p {
+        word-wrap:unset!important;
+        width: 260px !important; ;
+
+      }
+
+      #plan {
+        height: 82px;
+      }
+      #plan p:nth-child(2){
+        padding-top: -10px!important;
+        margin-left: -10px;
+      }
+      #plan p:nth-child(1){
+        padding-top: 1px!important;
+        margin-left: -10px;
+      }
+      #plan p:nth-child(3) {
+      padding-left: 210px!important;
+      padding-top: 15px!important;
+      font-size: 13.5px;
+      position: absolute;
+    }
+    }
+    #information {
+      margin-bottom: 20px;
     }
     #information img {
       width: 100%;
@@ -43,11 +76,13 @@
 
     }
     #information h2 {
-      font-weight: 800;
+      font-weight: 750;
     }
     #information p {
       font-size: 16px;
       color:hsl(224, 23%, 55%);/*hsl(224, 23%, 55%);*/
+      width: 90%;
+      margin: auto;
     }
     #plan {
       background:hsl(225, 100%, 98%);
