@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL here](https://your-solution-url.com)
+- Live Site URL: [live site URL here](https://dazzling-elion-850a2f.netlify.app/)
 
 ### Built with
 
@@ -48,6 +48,6 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Mu-Solomon](https://www.frontendmentor.io/profile/Mu-Solomon)
 
-- Facebook - [@Mu Solomoni](https://www.facebook.com/yourusername)
+- Facebook - [@Mu-Solomoni](https://www.facebook.com/Mu-Solomoni)
